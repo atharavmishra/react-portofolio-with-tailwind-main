@@ -356,6 +356,46 @@ export default function Home() {
 
             </div>
           </div>
+
+          <div className="lg:flex gap-5">
+            <div className="text-start md:p-10 rounded-xl mt-10 flex-1 flex flex-wrap" style={{ height: 'auto' }}>
+              <div className="w-full lg:w-1/3 p-2">
+                <div className="shadow-2xl rounded-lg overflow-hidden bg-white dark:bg-gray-800 transition-transform transform hover:scale-105 hover:shadow-xl" style={{ width: '100%', position: 'relative' }}>
+                  <Image src={wallpaper_app1} layout="responsive" objectFit="cover" />
+                </div>
+              </div>
+
+              <div className="w-full lg:w-1/3 p-2">
+                <div className="shadow-2xl rounded-lg overflow-hidden bg-white dark:bg-gray-800 transition-transform transform hover:scale-105 hover:shadow-xl" style={{ width: '100%', position: 'relative' }}>
+                  <Image src={wallpaper_app2} layout="responsive" objectFit="cover" />
+                </div>
+              </div>
+              <div className="w-full lg:w-1/3 p-2">
+                <div className="shadow-2xl rounded-lg overflow-hidden bg-white dark:bg-gray-800 transition-transform transform hover:scale-105 hover:shadow-xl" style={{ width: '100%', position: 'relative' }}>
+                  <Image src={wallpaper_app3} layout="responsive" objectFit="cover" />
+                </div>
+              </div>
+              <div className=" w-full p-6 mx-auto mt-10 shadow-2xl rounded-xl overflow-hidden bg-gradient-to-br from-purple-600 via-pink-500 to-red-500 dark:from-gray-800 dark:via-gray-900 dark:to-black text-gray-100 dark:text-gray-200 transform transition-all duration-500 hover:scale-105">
+                <h3 className="text-4xl py-2 text-gray-300 font-medium dark:text-gray-400 md:text-4xl">
+                  Wallpaper App
+                </h3>
+                <p className="py-2 text-white">
+                  Developed a wallpaper app where you can browse through millions of High Quality pictures and use them as wallpaper.
+                </p>
+                <div className="flex justify-center mt-6">
+                  <a
+                    className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md"
+                    href="#"
+                    onClick={handleRedirectWallpaperApp}
+                  >
+                    Live App
+                  </a>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
         </section>
 
         <TechStack />
