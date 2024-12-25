@@ -16,6 +16,9 @@ import nitr3 from "../public/nitr3.png";
 import wallpaper_app1 from "../public/wallpaper_app1.png";
 import wallpaper_app2 from "../public/wallpaper2.png";
 import wallpaper_app3 from "../public/wallpaper3.png";
+import nnpic1 from "../public/nnpic5.webp";
+import nnpic2 from "../public/nnpic1.webp";
+import nnpic3 from "../public/nnpic4.webp";
 import ustore1 from "../public/ustore_1.png";
 import ustore2 from "../public/ustore_2.png";
 import ustore3 from "../public/ustore_3.png";
@@ -361,26 +364,26 @@ export default function Home() {
             <div className="text-start md:p-10 rounded-xl mt-10 flex-1 flex flex-wrap" style={{ height: 'auto' }}>
               <div className="w-full lg:w-1/3 p-2">
                 <div className="shadow-2xl rounded-lg overflow-hidden bg-white dark:bg-gray-800 transition-transform transform hover:scale-105 hover:shadow-xl" style={{ width: '100%', position: 'relative' }}>
-                  <Image src={wallpaper_app1} layout="responsive" objectFit="cover" />
+                  <Image src={nnpic1} layout="responsive" objectFit="cover" />
                 </div>
               </div>
 
               <div className="w-full lg:w-1/3 p-2">
                 <div className="shadow-2xl rounded-lg overflow-hidden bg-white dark:bg-gray-800 transition-transform transform hover:scale-105 hover:shadow-xl" style={{ width: '100%', position: 'relative' }}>
-                  <Image src={wallpaper_app2} layout="responsive" objectFit="cover" />
+                  <Image src={nnpic2} layout="responsive" objectFit="cover" />
                 </div>
               </div>
               <div className="w-full lg:w-1/3 p-2">
                 <div className="shadow-2xl rounded-lg overflow-hidden bg-white dark:bg-gray-800 transition-transform transform hover:scale-105 hover:shadow-xl" style={{ width: '100%', position: 'relative' }}>
-                  <Image src={wallpaper_app3} layout="responsive" objectFit="cover" />
+                  <Image src={nnpic3} layout="responsive" objectFit="cover" />
                 </div>
               </div>
               <div className=" w-full p-6 mx-auto mt-10 shadow-2xl rounded-xl overflow-hidden bg-gradient-to-br from-purple-600 via-pink-500 to-red-500 dark:from-gray-800 dark:via-gray-900 dark:to-black text-gray-100 dark:text-gray-200 transform transition-all duration-500 hover:scale-105">
                 <h3 className="text-4xl py-2 text-gray-300 font-medium dark:text-gray-400 md:text-4xl">
-                  Wallpaper App
+                  No Names Social Media App
                 </h3>
                 <p className="py-2 text-white">
-                  Developed a wallpaper app where you can browse through millions of High Quality pictures and use them as wallpaper.
+                 Led the development of social media app which user can use to socialise anonymously.
                 </p>
                 <div className="flex justify-center mt-6">
                   <a
@@ -397,8 +400,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-
-        <TechStack />
+<TechStack />
         <footer className="text-gray-800 dark:text-gray-200 py-12 mt-20">
           <div className="container mx-auto px-4">
             <div className="flex flex-col md:flex-row justify-between items-center mb-8">
