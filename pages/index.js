@@ -50,7 +50,7 @@ export default function Home() {
   };
 
   const handleRedirectUnnatiWeb = () => {
-    window.open('https://unnati.ag/', '_blank');
+    window.open('https://queuebuster.co/', '_blank');
   };
 
   const handleDownload = () => {
@@ -177,7 +177,7 @@ export default function Home() {
                 <div className="flex items-center space-x-4">
                   <span className="text-2xl">💼</span>
                   <p>Working for <a className="text-cyan-300 hover:underline cursor-pointer" onClick={handleRedirectUnnatiWeb}
-                  >Unnati Agritech</a>
+                  >QueueBuster</a>
 
                   </p>
                 </div>
