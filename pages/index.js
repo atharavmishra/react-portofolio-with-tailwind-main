@@ -28,6 +28,8 @@ import firebaseIcon from "../public/firebase.png";
 import javaIcon from "../public/java.png";
 import kotlinIcon from "../public/kotlin_logo.png";
 import instagramIcon from "../public/instagram.png";
+import flutterIcon from "../public/flutter.png";
+import dartIcon from "../public/dart.png";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
@@ -99,10 +101,24 @@ export default function Home() {
             </div>
             <p className="mt-3 text-gray-900 dark:text-gray-200 font-semibold">Firebase</p>
           </div>
+          {/* Flutter */}
+          <div className="flex flex-col items-center bg-white dark:bg-gray-700 p-4 m-2 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:shadow-xl w-28 h-32 md:w-32 md:h-36">
+            <div className="w-16 h-16">
+              <Image src={flutterIcon} layout="responsive" objectFit="contain" />
+            </div>
+            <p className="mt-3 text-gray-900 dark:text-gray-200 font-semibold">Flutter</p>
+          </div>
+          {/* Dart */}
+          <div className="flex flex-col items-center bg-white dark:bg-gray-700 p-4 m-2 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:shadow-xl w-28 h-32 md:w-32 md:h-36">
+            <div className="w-16 h-16">
+              <Image src={dartIcon} layout="responsive" objectFit="contain" />
+            </div>
+            <p className="mt-3 text-gray-900 dark:text-gray-200 font-semibold">Dart</p>
+          </div>
         </div>
       </div>
     );
-  }
+  };
 
 
   return (
