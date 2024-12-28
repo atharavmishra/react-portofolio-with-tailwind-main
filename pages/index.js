@@ -119,9 +119,7 @@ export default function Home() {
       </div>
     );
   };
-
-
-  return (
+return (
     <div className={`${darkMode ? "dark" : ""} w-full h-full`}>
       <Head>
         <title>Create Next App</title>
