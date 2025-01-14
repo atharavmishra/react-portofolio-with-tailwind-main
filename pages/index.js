@@ -279,10 +279,10 @@ return (
               </div>
               <div className="w-full p-6 mx-auto mt-10 shadow-2xl rounded-xl overflow-hidden bg-gradient-to-br from-purple-600 via-pink-500 to-red-500 dark:from-gray-800 dark:via-gray-900 dark:to-black text-white transform transition-all duration-500 hover:scale-105">
                 <h3 className="text-3xl text-gray-300 font-medium dark:text-gra-400 md:text-3xl">
-                  Hello NITR(NIT Rourkela) App
+                  Hello NITR(NIT Rourkela) Flutter App
                 </h3>
                 <p className="py-2 text-white">
-                  Built an app for NIT Rourkela  that bridges the communication gap between faculty and students.
+                  Built an app usign Flutter for NIT Rourkela that bridges the communication gap between faculty and students.
                 </p>
                 <div className="flex justify-center mt-6">
                   <a
