@@ -60,7 +60,7 @@ export default function Home() {
 
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/atharva_mishra.pdf';
+    link.href = '/atharv_mishra.pdf';
     link.download = 'AtharvResume.pdf';
     link.click();
   };
